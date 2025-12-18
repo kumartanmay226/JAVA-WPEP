@@ -1,3 +1,4 @@
+package JAVAC;
 import java.util.Scanner;
 
 public class sumtwo {
