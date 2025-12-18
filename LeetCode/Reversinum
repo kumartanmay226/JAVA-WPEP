@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class reversinum {
+   public reversinum() {
+   }
+
+   public static void main(String[] var0) {
+      Scanner var1 = new Scanner(System.in);
+      System.out.println("Enter a number -> ");
+      String var2 = var1.nextLine();
+      int var3 = Integer.parseInt(var2);
+      System.out.println("Fit");
+
+      int var4;
+      for(var4 = 0; var3 != 0; var3 /= 10) {
+         var4 = var4 * 10 + var3 % 10;
+      }
+
+      System.out.println(var4);
+   }
+}
